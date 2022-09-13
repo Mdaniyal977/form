@@ -1,0 +1,112 @@
+.signUp-div{
+    margin-top: 63%;
+    width:500px;
+      height:max-content;
+      padding: 60px 35px 35px 35px;
+      border-radius: 40px;
+      background: #ecf0f3;
+      box-shadow: 13px 13px 20px #cbced1,
+                  -13px -13px 20px #ffffff;
+}
+.name{
+justify-content: space-between;
+    display: flex;
+}
+.passwords{
+    justify-content: center;
+    align-items: center;
+    display: block;
+}
+.number{
+    justify-content: center;
+    align-items: center;
+    display: block; 
+}
+.number input{
+    border: none;
+    outline:none;
+    background: none;
+    font-size: 13px;
+    font-weight: 700;
+    color: #555;
+    padding:20px 10px 20px 5px;
+    width: 200px;
+    margin: 10px;
+}
+
+
+.passwords input{
+    border: none;
+    outline:none;
+    background: none;
+    font-size: 13px;
+    font-weight: 700;
+    color: #555;
+    padding:20px 10px 20px 5px;
+    width: 200px;
+    margin: 10px;
+}
+.name input{
+
+    border: none;
+    outline:none;
+    background: none;
+    font-size: 13px;
+    font-weight: 700;
+    color: #555;
+    padding:20px 10px 20px 5px;
+    width: 135px;
+    margin: 10px;
+}
+.firstname,.lastname{
+    display: flex;
+    margin-bottom: 30px;
+    border-radius: 25px;
+    box-shadow: inset 8px 8px 8px #cbced1,
+                inset -8px -8px 8px #ffffff;
+}
+.firstpassword , .lastpassword{
+    display: flex;
+    margin-bottom: 30px;
+    border-radius: 25px;
+    box-shadow: inset 8px 8px 8px #cbced1,
+                inset -8px -8px 8px #ffffff;
+
+}
+.phone{
+    display: flex;
+    margin-bottom: 30px;
+    border-radius: 25px;
+    box-shadow: inset 8px 8px 8px #cbced1,
+                inset -8px -8px 8px #ffffff;   
+}
+.phone img{
+    margin: 23px 10px;
+display: flex;
+justify-content: center;
+    height: 25px;
+}
+.firstpassword img{ 
+    margin: 23px 10px;
+display: flex;
+justify-content: center;
+    height: 25px;
+}
+.lastpassword img{
+    margin: 23px 10px;
+display: flex;
+justify-content: center;
+    height: 25px;
+}
+.firstname img{
+    margin: 23px 10px;
+display: flex;
+justify-content: center;
+    height: 25px;
+}
+.lastname img{
+    margin: 23px 10px;
+display: flex;
+justify-content: center;
+    height: 25px;
+    }

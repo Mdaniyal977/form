@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./new.css">
+    <link rel="stylesheet" href="./signup.css">
+</head>
+
+<body>
+    <header>
+		<div class="logo"><img src="./download.png" alt=""></div>
+	    <nav>
+	        <ul>				  
+	            <li><a href="#" class="active">Home</a></li>
+	            <li><a href="#">About</a></li>
+	            <li><a href="#">Services</a></li>
+	            <li><a href="#">Team</a></li>
+	            <li><a href="#">Portfolio</a></li>
+	            <li><a href="#">Contact</a></li>
+	        </ul>
+		 </nav>
+		 <div class="menu-toggle"><i class="fa fa-bars"></i></div>
+	</header>
+    <div class="login-div">
+        <div class="logo"> <img src="./download.png" alt=""> </div>
+        <div class="title">SYLANI</div>
+        <div class="sub-title">STUDENT DASH BOARD</div>
+        <div class="fields">
+            <div class="username">
+                <svg  class="svg-icon" viewBox="0 0 24 24">
+                <path d="M17.388,4.751H2.613c-0.213,0-0.389,0.175-0.389,0.389v9.72c0,0.216,0.175,0.389,0.389,0.389h14.775c0.214,0,0.389-0.173,0.389-0.389v-9.72C17.776,4.926,17.602,4.751,17.388,4.751 M16.448,5.53L10,11.984L3.552,5.53H16.448zM3.002,6.081l3.921,3.925l-3.921,3.925V6.081z M3.56,14.471l3.914-3.916l2.253,2.253c0.153,0.153,0.395,0.153,0.548,0l2.253-2.253l3.913,3.916H3.56z M16.999,13.931l-3.921-3.925l3.921-3.925V13.931z"></path></svg>
+                <input type="email", class="user-input" placeholder="username" required /></div>
+            <div class="password"> <img src="./account-number-icon.svg" alt="" fill="#999"><input type="password" class="pass-input" placeholder="password" required /></div>
+        </div>
+        <div id="login" class="loginButton">
+            <a href="#"><button class="signin-button">Login</button></a>
+        </div>
+        <div id="create" class="createAccount">
+            <a href="./signUp.html"><button class="signin-button">sign up</button></a>
+        </div>
+    </div>
+    <script>
+		const btn = document.querySelector('.menu-toggle');		
+		const nav = document.querySelector('nav');
+
+		btn.addEventListener('click', ()=>{
+
+			nav.classList.toggle('active');
+		})
+	</script>
+    <script src="./app.js"></script>
+    <script src="./all.min.js"></script>
+</body>
+
+</html>

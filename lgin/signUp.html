@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./new.css">
+    <link rel="stylesheet" href="./signup.css">
+</head>
+
+<body>
+    <header>
+        <div class="logo"><img src="./download.png" alt=""></div>
+        <nav>
+            <ul>
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Team</a></li>
+                <li><a href="#">Portfolio</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="menu-toggle"><i class="fa fa-bars"></i></div>
+    </header>
+
+    <div class="signUp-div">
+        <div class="logo"> <img src="./download.png" alt=""> </div>
+        <div class="title">SIGN UP</div>
+        <div class="sub-title">CREATE YOUR ACCOUNT</div>
+        <div class="fields">
+            <div class="name">
+                <div id="Fname" class="firstname"><img src="./firstname.png" alt=""> <input type="text"
+                        placeholder="FIRST NAME" required></div>
+                <div id="Lname" class="lastname"><img src="./firstname.png" alt="">
+                    <input type="email" placeholder="LASTNAME" required>
+                </div>
+            </div>
+            <div class="passwords">
+                <div id="setPassword" class="firstpassword"><img src="./firstname.png" alt=""> <input type="password"
+                        placeholder="SET PASSWORD" required></div>
+                <div id="conformPassword" class="lastpassword"><img src="./firstname.png" alt="">
+                    <input type="password" placeholder="CONFROM PASSWORD" required>
+                </div>
+            </div>
+            <div class="number">
+                <div id="phonenumber" class="phone"><img src="./firstname.png" alt=""> <input type="number"
+                        placeholder="ENTER PHONE NUMBER" required></div>
+            </div>
+        </div>
+
+
+
+        <div id="login" class="loginButton">
+            <a href="#"><button class="signin-button">CREATE </button></a>
+        </div>
+        <div id="create" class="createAccount">
+            <a href="./index.html"><button class="signin-button">BACKK TO Login</button></a>
+        </div>
+    </div>
+
+
+    <script>
+        const btn = document.querySelector('.menu-toggle');
+        const nav = document.querySelector('nav');
+
+        btn.addEventListener('click', () => {
+
+            nav.classList.toggle('active');
+        })
+    </script>
+    <script src="./app.js"></script>
+    <script src="./all.min.js"></script>
+</body>
+
+</html>
